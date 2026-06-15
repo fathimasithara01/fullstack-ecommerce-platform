@@ -1,0 +1,45 @@
+
+node_modules/
+
+
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+.DS_Store
+Thumbs.db
+
+
+.vscode/
+.idea/
+
+
+frontend/.next/
+frontend/out/
+frontend/build/
+
+backend/dist/
+backend/build/
+
+
+backend/prisma/dev.db
+backend/prisma/migrations/ (optional depending on team)
+
+# Coverage / testing
+coverage/
+
+# TypeScript cache
+
+*.tsbuildinfo
+
+# Docker (if you use later)
+docker-compose.override.yml
